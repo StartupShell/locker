@@ -2,13 +2,15 @@
   "name": "locker",
   "version": "1.0.0",
   "description": "",
-  "keywords":[],
+  "keywords": [],
   "main": "",
   "dependencies": {
+    "express": "^4.10.0",
+    "mongoskin": "^1.4.4"
   },
-  "devDependencies": {  
-    "mocha":"*",
-    "chai":"*"
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
   },
   "scripts": {
     "test": "mocha"
